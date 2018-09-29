@@ -1,0 +1,48 @@
+{
+  "name": "@rodrigowpl/react-password-strength",
+  "version": "1.0.0",
+  "description": "React component based on dropbox algorithm for Password Strength Estimation",
+  "browser": "dist/main.js",
+  "main": "dist/main.js",
+  "module": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RodrigoWP/react-password-strength"
+  },
+  "author": "Rodrigo Wippel",
+  "license": "MIT",
+  "scripts": {
+    "storybook": "start-storybook -p 6006 -c storybook",
+    "storybook:build": "cross-env NODE_ENV=production BABEL_ENV=production build-storybook -c storybook -o docs",
+    "build": "cross-env webpack --progress --config webpack.config -p",
+    "pub": "npm publish --access=public",
+    "test": "jest --watch",
+    "update-packages": "node scripts/update-packages.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-export-default-from": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "@storybook/addon-actions": "^3.4.10",
+    "@storybook/react": "^3.4.10",
+    "babel-loader": "^8.0.2",
+    "clean-webpack-plugin": "^0.1.19",
+    "cross-env": "^5.2.0",
+    "jest": "^23.6.0",
+    "webpack": "^4.18.0",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.8"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.0.0",
+    "prop-types": "^15.6.2",
+    "ramda": "^0.25.0",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
+    "styled-components": "^3.4.6",
+    "zxcvbn": "^4.4.2"
+  }
+}
