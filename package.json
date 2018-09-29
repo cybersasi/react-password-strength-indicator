@@ -1,5 +1,5 @@
 {
-  "name": "@rodrigowpl/react-password-strength",
+  "name": "@cybersasi/react-password-strength-indicator",
   "version": "1.0.0",
   "description": "React component based on dropbox algorithm for Password Strength Estimation",
   "browser": "dist/main.js",
@@ -7,7 +7,7 @@
   "module": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RodrigoWP/react-password-strength"
+    "url": "git+https://github.com/cybersasi/react-password-strength-indicator"
   },
   "author": "Rodrigo Wippel",
   "license": "MIT",
