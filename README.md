@@ -1,4 +1,5 @@
-# react-password-strength
+
+# react-password-strength-indicator English
 
 > React component with [zxcvbn](https://github.com/dropbox/zxcvbn)
 
@@ -10,18 +11,18 @@ You can see running example: https://rodrigowp.github.io/react-password-strength
 
 ### for npm users
 ```console
-npm i --save @rodrigowpl/react-password-strength
+npm i --save @cybersasi/react-password-strength-indicator'
 ```
 
 ### for yarn users
 ```console
-yarn add @rodrigowpl/react-password-strength
+yarn add @cybersasi/react-password-strength-indicator'
 ```
 
 ## Usage
 
 ```jsx
-import { PasswordStrength } from '@rodrigowpl/react-password-strength'
+import { PasswordStrength } from '@cybersasi/react-password-strength-indicator'
 
 <PasswordStrength
   value='whatever-password'
